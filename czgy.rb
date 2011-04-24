@@ -3,5 +3,5 @@ require 'rubygems'
 require 'sinatra'
 
 get '/:journal' do
-  redirect to("http://crazyguyonabikr.com/doc/#{params[:journal]}")
+  redirect to("http://www.crazyguyonabike.com/doc/#{params[:journal]}")
 end
