@@ -2,6 +2,6 @@
 require 'rubygems'
 require 'sinatra'
 
-get '/' do
-  "Hello from Sinatra on Heroku!"
+get '/:journal' do
+  "http://crazyguyonabikr.com/doc/#{params[:journal]}"
 end
