@@ -5,3 +5,7 @@ require 'sinatra'
 get '/:journal' do
   redirect to("http://www.crazyguyonabike.com/doc/#{params[:journal]}")
 end
+
+get '/' do
+  redirect to("http://www.crazyguyonabike.com/")
+end
