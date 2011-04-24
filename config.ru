@@ -1,2 +1,2 @@
-require './hello'
+require './czgy'
 run Sinatra::Application
